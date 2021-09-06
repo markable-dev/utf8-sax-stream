@@ -1,0 +1,9 @@
+node_modules/
+.helm/
+.github/
+.gitignore
+*.env
+*.log
+fixtures/
+.DS_Store
+.tag

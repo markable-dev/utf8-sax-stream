@@ -1,0 +1,19 @@
+{
+  "name": "@markable/utf8-sax-stream",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:markable-dev/utf8-sax-stream.git",
+  "author": "leaf4monkey <leaf4monkey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha $(ls **/*.spec.js)"
+  },
+  "peerDependencies": {
+    "sax-stream": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "sax-stream": "^1.3.0"
+  }
+}
