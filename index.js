@@ -12,4 +12,6 @@ Sax.prototype._utf8Transform = function (chunk, encoding, callback) {
 };
 Sax.prototype._transform = Sax.prototype._utf8Transform;
 
+Sax.getStrictSax = (options = {}) => Sax({ strict: true, trim: true, ...options });
+
 module.exports = Sax;
